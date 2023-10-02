@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
     private void openDialog(){
-
+        ExampleDialog exampleDialog = new ExampleDialog();
+        exampleDialog.show(getSupportFragmentManager(),"example dialog");
     }
 }
